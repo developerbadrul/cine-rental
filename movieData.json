@@ -1,0 +1,124 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/original/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg",
+        "genre_ids": [
+            28,
+            12,
+            16,
+            35,
+            10751
+        ],
+        "id": 1011985,
+        "original_language": "en",
+        "original_title": "Kung Fu Panda 4",
+        "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+        "popularity": 4028.167,
+        "poster_path": "https://image.tmdb.org/t/p/original/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+        "release_date": "2024-03-02",
+        "title": "Kung Fu Panda 4",
+        "video": false,
+        "vote_average": 6.938,
+        "vote_count": 379
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/original/zAepSrO99owYwQqi0QG2AS0dHXw.jpg",
+        "genre_ids": [
+            28,
+            14
+        ],
+        "id": 634492,
+        "original_language": "en",
+        "original_title": "Madame Web",
+        "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+        "popularity": 2201.481,
+        "poster_path": "https://image.tmdb.org/t/p/original/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+        "release_date": "2024-02-14",
+        "title": "Madame Web",
+        "video": false,
+        "vote_average": 5.632,
+        "vote_count": 827
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/original/39LxWqvQCsbAe0Cm2B7dtBe3Rd4.jpg",
+        "genre_ids": [
+            28,
+            53
+        ],
+        "id": 359410,
+        "original_language": "en",
+        "original_title": "Road House",
+        "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
+        "popularity": 2562.018,
+        "poster_path": "https://image.tmdb.org/t/p/original/bXi6IQiQDHD00JFio5ZSZOeRSBh.jpg",
+        "release_date": "2024-03-08",
+        "title": "Road House",
+        "video": false,
+        "vote_average": 7.267,
+        "vote_count": 759
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/original/qrGtVFxaD8c7et0jUtaYhyTzzPg.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12
+        ],
+        "id": 823464,
+        "original_language": "en",
+        "original_title": "Godzilla x Kong: The New Empire",
+        "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
+        "popularity": 2461.857,
+        "poster_path": "https://image.tmdb.org/t/p/original/phmjv93zEwitWLJEOvlXPhtK58o.jpg",
+        "release_date": "2024-03-27",
+        "title": "Godzilla x Kong: The New Empire",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 81
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/original/deLWkOLZmBNkm8p16igfapQyqeq.jpg",
+        "genre_ids": [
+            14,
+            28,
+            12
+        ],
+        "id": 763215,
+        "original_language": "en",
+        "original_title": "Damsel",
+        "overview": "A young woman's marriage to a charming prince turns into a fierce fight for survival when she's offered up as a sacrifice to a fire-breathing dragon.",
+        "popularity": 1271.706,
+        "poster_path": "https://image.tmdb.org/t/p/original/sMp34cNKjIb18UBOCoAv4DpCxwY.jpg",
+        "release_date": "2024-03-07",
+        "title": "Damsel",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 1253
+    },
+    {
+        "adult": false,
+        "backdrop_path": "https://image.tmdb.org/t/p/original/oFAukXiMPrwLpbulGmB5suEZlrm.jpg",
+        "genre_ids": [
+            28,
+            12,
+            878,
+            14,
+            18
+        ],
+        "id": 624091,
+        "original_language": "id",
+        "original_title": "Sri Asih",
+        "overview": "Alana discover the truth about her origin: she’s not an ordinary human being. She may be the gift for humanity and become its protector as Sri Asih. Or a destruction, if she can’t control her anger.",
+        "popularity": 1103.298,
+        "poster_path": "https://image.tmdb.org/t/p/original/wShcJSKMFg1Dy1yq7kEZuay6pLS.jpg",
+        "release_date": "2022-11-17",
+        "title": "Sri Asih",
+        "video": false,
+        "vote_average": 6.288,
+        "vote_count": 40
+    }
+]
