@@ -1,13 +1,16 @@
 import { getMovies } from "@/lib/getMovieData";
 import SideBar from "./SideBar";
 import Image from "next/image"
+import { getDictionary } from "@/app/[lang]/dictionaries";
 const MovieDetails = async ({ id, lang }) => {
     const movies = await getMovies()
+    const dictionary = await getDictionary(lang)
+    // console.log(dictionary);
     const movie = movies?.find(movie => movie.id === parseInt(id));
-    console.log(movie);
+    // console.log(movie);
     return (
         <div className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
-            <SideBar />
+            <SideBar lang={lang} />
             <section>
                 <div>
                     <Image className="w-full object-cover max-h-[300px] lg:max-h-[500px]"
@@ -22,19 +25,19 @@ const MovieDetails = async ({ id, lang }) => {
                         <h2 className="font-bold text-slate-300 text-2xl">{movie.original_title}</h2>
                         <p className="my-2 text-slate-400 italic">{movie.overview}</p>
                         <ul className="text-slate-300 space-y-2 my-8">
-                            <li>Release Date : {movie.release_date}</li>
-                            <li>Average Vote : {movie.vote_average.toFixed(1)}</li>
-                            <li>Vote Count : {movie.vote_count}</li>
-                            <li>Popularity : {movie.popularity}</li>
+                            <li>{dictionary.releaseDate} : {movie.release_date}</li>
+                            <li>{dictionary.averageVote} : {movie.vote_average.toFixed(1)}</li>
+                            <li>{dictionary.voteCount} : {movie.vote_count}</li>
+                            <li>{dictionary.popularity} : {movie.popularity}</li>
                         </ul>
 
                     </div>
                     <div className="col-span-2 space-y-4">
                         <button className="py-2 w-full bg-primary font-medium text-slate-800 rounded-md">
-                            Stream In HD
+                            {dictionary.streamInHD}
                         </button>
                         <button className="py-2 w-full bg-primary font-medium text-slate-800 rounded-md">
-                            Download In HD
+                            {dictionary.downloadInHD}
                         </button>
                     </div>
                 </div>

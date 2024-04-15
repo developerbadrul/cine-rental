@@ -5,7 +5,7 @@ const MovieCard = ({ movie }) => {
     // console.log(movie);
     return (
         <figure className="p-4 border border-black/10 shadow-sm dark:border-white/10 rounded-xl">
-            <Image className="w-full object-cover" src="/assets/movie-1.png" width={356} height={428} alt="" />
+            <Image className="w-full object-cover" src={movie?.poster_path} width={356} height={428} alt="" />
             <figcaption className="pt-4">
                 <h3 className="text-xl mb-1">{movie?.original_title}</h3>
                 <p className="text-[#575A6E] text-sm mb-2">Genre ids: {movie.genre_ids.join(", ")}</p>
