@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const MovieCard = async({ movie, lang }) => {
     const dictionary = await getDictionary(lang)
-    console.log(dictionary);
+    // console.log(dictionary);
     // console.log(movie);
     return (
         <figure className="p-4 border border-black/10 shadow-sm dark:border-white/10 rounded-xl">

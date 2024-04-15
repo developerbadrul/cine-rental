@@ -17,7 +17,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
-        <Footer/>
+        <div id="modal-root-content" />
+        <Footer />
       </body>
     </html>
   );
