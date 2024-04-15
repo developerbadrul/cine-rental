@@ -2,6 +2,7 @@ import { getMovies } from "@/lib/getMovieData";
 import SideBar from "./SideBar";
 import Image from "next/image"
 import { getDictionary } from "@/app/[lang]/dictionaries";
+
 const MovieDetails = async ({ id, lang }) => {
     const movies = await getMovies()
     const dictionary = await getDictionary(lang)
@@ -10,7 +11,7 @@ const MovieDetails = async ({ id, lang }) => {
     // console.log(movie);
     return (
         <div className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
-            <SideBar lang={lang} />
+            <SideBar  lang={lang}/>
             <section>
                 <div>
                     <Image className="w-full object-cover max-h-[300px] lg:max-h-[500px]"

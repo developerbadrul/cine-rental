@@ -1,7 +1,10 @@
+import { getDictionary } from "@/app/[lang]/dictionaries";
 import Image from "next/image";
 import Link from "next/link";
 
-const MovieCard = ({ movie }) => {
+const MovieCard = async({ movie, lang }) => {
+    const dictionary = await getDictionary(lang)
+    console.log(dictionary);
     // console.log(movie);
     return (
         <figure className="p-4 border border-black/10 shadow-sm dark:border-white/10 rounded-xl">
@@ -14,9 +17,9 @@ const MovieCard = ({ movie }) => {
                         <Image key={index} src="/assets/star.svg" width={14} height={14} alt="" />
                     ))}
                 </div>
-                <Link href={`movies/${movie.id}`} className="bg-primary rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm">
+                <Link href={`${lang}/movies/${movie.id}`} className="bg-primary rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm">
                     <Image src="/assets/tag.svg" width={20} height={20} alt="" />
-                    <span>Details</span>
+                    <span>{dictionary.details}</span>
                 </Link>
             </figcaption>
         </figure>
