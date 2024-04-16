@@ -1,9 +1,11 @@
 import MovieDetails from "@/components/MovieDetails";
+import { getMovies } from "@/lib/getMovieData";
+import { notFound } from "next/navigation";
 
-const MovieDetailsPage = ({params: {movieId, lang}}) => {
-    // console.log(movieId, lang);
+const MovieDetailsPage = async ({ params: { movieId, lang } }) => {
+    
     return (
-        <MovieDetails  id={movieId} lang={lang}/>
+        <MovieDetails id={movieId} lang={lang} />
     );
 };
 
