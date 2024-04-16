@@ -9,7 +9,7 @@ const MovieNotFound = () => {
     const movieId = pathname.split('/').pop();
     return (
         <div>
-            <p className='text-center text-3xl'>Movie you are requesting  <b className='text-red-600'>{movieId}</b> not Found</p>
+            <p className='text-center text-3xl'>This movie with <b className='text-red-600'>{movieId}</b> id was not found!</p>
             <Lottie animationData={notFound} loop={true} />
         </div>
     );

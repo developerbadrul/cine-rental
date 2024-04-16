@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
     return (
@@ -9,6 +10,9 @@ const Navbar = () => {
                     <Image src="/assets/logo.svg" width={139} height={26} alt="Logo" />
                 </Link>
                 <ul className="flex items-center space-x-5">
+                    <li>
+                        <LanguageSwitcher/>
+                    </li>
                     <li>
                         <Link href="#" className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block" >
                             <Image src="/assets/ring.svg" width={24} height={24} alt="Ring" />
