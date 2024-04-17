@@ -46,13 +46,13 @@ const LanguageSwitcher = () => {
           className="flex items-center gap-2"
           onClick={() => setShowManu(!showManu)}
         >
-          <Image
+          {/* <Image
             className="max-w-8"
             src="/bd.png"
             alt="bangla"
             height={100}
             width={165}
-          />
+          /> */}
           {selectedLanguage.language}
         </button>
         {showManu && (
